@@ -2,6 +2,7 @@ import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/User.png";
 import themeIcon from "../../assets/sun.svg";
 import linkedInIcon from "../../assets/linkedin-light.svg";
+import gitHubIcon from "../../assets/github-light.svg";
 
 function Hero() {
   return (
@@ -28,6 +29,12 @@ function Hero() {
         <span>
           <a href="https://www.linkedin.com/in/ia-senekal" target="_blank">
             <img src={linkedInIcon} alt="LinkedIn Icon" />
+          </a>
+        </span>
+
+        <span>
+          <a href="https://github.com/IngeSenekal" target="_blank">
+            <img src={gitHubIcon} alt="Github Icon" />
           </a>
         </span>
       </div>
