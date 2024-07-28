@@ -17,7 +17,7 @@
     transition: transform 200ms ease-in-out;
   }
 
-  ahover {
+  a:hover {
     transform: scale(1.05);
   }
 
