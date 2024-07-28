@@ -37,6 +37,13 @@ function Hero() {
             <img src={gitHubIcon} alt="Github Icon" />
           </a>
         </span>
+        <p>Just keep it simple!</p>
+        <a
+          href="https://drive.google.com/file/d/1QXHpwQbfbExR_TbPQLcGlT13P0ONYjA0/view?usp=sharing"
+          target="_blank"
+        >
+          <button className="hover">CV</button>
+        </a>
       </div>
     </section>
   );
