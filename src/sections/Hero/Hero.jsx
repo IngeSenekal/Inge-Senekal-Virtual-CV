@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/User.png";
+import heroImg from "../../assets/profile.png";
 import themeSun from "../../assets/sun.svg";
 import themeMoon from "../../assets/moon.svg";
 import linkedInIconLight from "../../assets/linkedin-light.svg";
@@ -41,14 +41,13 @@ function Hero() {
           <a href="https://www.linkedin.com/in/ia-senekal" target="_blank">
             <img src={linkedInIcon} alt="LinkedIn Icon" />
           </a>
-        </span>
 
-        <span>
           <a href="https://github.com/IngeSenekal" target="_blank">
             <img src={gitHubIcon} alt="Github Icon" />
           </a>
         </span>
-        <p>Just keep it simple!</p>
+
+        <p className={styles.description}>Just keep it simple!</p>
         <a
           href="https://drive.google.com/file/d/1QXHpwQbfbExR_TbPQLcGlT13P0ONYjA0/view?usp=sharing"
           target="_blank"

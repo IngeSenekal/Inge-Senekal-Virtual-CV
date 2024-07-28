@@ -6,29 +6,29 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
-}
 
-.hero {
-  max-width: 200px;
-}
+  .hero {
+    max-width: 200px;
+  }
 
-span {
-  display: flex;
-  gap: 25px;
-  justify-content: center;
-}
+  span {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
 
-span a {
-  margin: 0;
-}
+    a {
+      margin: 0;
 
-span a img {
-  width: 30px;
-}
+      img {
+        width: 30px;
+      }
+    }
 
-a {
-  width: fit-content;
-  align-self: center;
+    a {
+      width: fit-content;
+      align-self: center;
+    }
+  }
 }
 
 button {
