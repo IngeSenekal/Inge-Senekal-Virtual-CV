@@ -29,7 +29,23 @@
   gap: 20px;
 }
 
+@media (width <= 800px) {
+  .container {
+    margin-top: -100px;
+  }
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    gap: 30px;
+  }
+}
+
 @media (width >= 800px) {
+  .container {
+    margin-top: -100px;
+  }
   .projectsContainer {
     flex-direction: row;
     flex-wrap: wrap;
