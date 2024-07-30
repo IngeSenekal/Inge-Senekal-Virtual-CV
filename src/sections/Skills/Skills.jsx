@@ -7,8 +7,20 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1>Skills</h1>
       <div className={styles.skillList}>
-        <SkillList scr={checkmarkIcon} skill="HTML" />
+        <SkillList src={checkmarkIcon} skill="HTML" />
+        <SkillList src={checkmarkIcon} skill="CSS" />
+        <SkillList src={checkmarkIcon} skill="Javascript" />
       </div>
+      <hr />
+
+      <div className={styles.skillList}>
+        <SkillList src={checkmarkIcon} skill="Java" />
+        <SkillList src={checkmarkIcon} skill="Flutter" />
+        <SkillList src={checkmarkIcon} skill="C#" />
+        <SkillList src={checkmarkIcon} skill="C++" />
+        <SkillList src={checkmarkIcon} skill="Python" />
+      </div>
+      <hr />
     </section>
   );
 }
