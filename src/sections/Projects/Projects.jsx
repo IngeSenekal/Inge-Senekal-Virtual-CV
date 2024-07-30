@@ -1,6 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
 import ParadisePoint from "../../assets/Paradise Point.png";
-import OMT from "../../assets/OMT.png";
 import OMT2 from "../../assets/OMTvs2.png";
 import ProjectCard from "../../common/ProjectCard";
 
@@ -12,7 +11,7 @@ function Projects() {
         <ProjectCard
           src={ParadisePoint}
           link={"https://github.com/Theunis-Kok/Paradise_Point"}
-          h3="ParadisePoint"
+          h3="Paradise Point"
           p="System Design Project"
         />
 
