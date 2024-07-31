@@ -31,7 +31,7 @@
 
 @media (width <= 800px) {
   .container {
-    margin-top: -100px;
+    margin-top: -40px;
   }
   .projectsContainer {
     flex-direction: row;
@@ -44,7 +44,7 @@
 
 @media (width >= 800px) {
   .container {
-    margin-top: -100px;
+    margin-top: -200px;
   }
   .projectsContainer {
     flex-direction: row;

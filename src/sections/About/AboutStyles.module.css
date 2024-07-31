@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
   text-align: center;
   padding: 20px;
   height: auto;
   min-height: 500px;
-  margin-top: -200px;
+  margin-top: -100px;
 }
 
 .info {
@@ -19,7 +19,7 @@
 }
 
 .description {
-  max-width: 25ch;
+  max-width: 35ch;
   font-size: 18px;
 }
 
@@ -29,8 +29,17 @@
   }
 }
 
+@media (width >= 800px) {
+  .container {
+    margin-top: -200px;
+  }
+}
 @media (min-width: 1400px) {
   .container {
-    gap: 60px;
+    gap: 50px;
+  }
+
+  .description {
+    max-width: 100ch;
   }
 }
